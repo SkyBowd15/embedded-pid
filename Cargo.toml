@@ -1,15 +1,16 @@
 [package]
-name = "pid"
-version = "4.0.0"
+name = "embedded-pid"
+version = "4.1.0"
 edition = "2018"
 authors = [
+    "Skyler Bowden <skybowd15@gmail.com>",
     "Ken Elkabany <ken@elkabany.com>",
     "Owez Griffiths <root@ogriffiths.com>",
 ]
 license = "MIT OR Apache-2.0"
-description = "A PID controller."
-repository = "https://github.com/braincore/pid-rs"
-keywords = ["pid"]
+description = "A PID controller for no-std & embedded environments"
+repository = "https://github.com/SkyBowd15/embedded-pid"
+keywords = ["pid", "embedded", "no-std"]
 categories = ["no-std", "embedded", "algorithms"]
 readme = "README.md"
 
@@ -24,4 +25,4 @@ default-features = false
 features = ["derive"]
 
 [badges]
-travis-ci = { repository = "braincore/pid-rs" }
+travis-ci = { repository = "SkyBowd15/embedded-pid" }
